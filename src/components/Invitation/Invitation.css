@@ -1,0 +1,93 @@
+.InvitationBox {
+    background-color: white;
+    width: 600px;
+    margin-top: 100px;
+    padding: 20px;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.25), 0 4px 5px rgba(0, 0, 0, 0.22);
+}
+
+form {
+    width: 100%;
+}
+
+form .Actions>button {
+    padding: 10px 5px;
+    background-color: rgb(76, 31, 150);
+    color: white;
+    font-weight: bold;
+}
+
+.Inputs {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.Inputs .col {
+    position: relative;
+    width: 100%;
+}
+
+.Inputs Button {
+    flex-basis: 15px;
+    transition: all .2s ease-in-out;
+    height: 100%;
+}
+
+.Inputs Button:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+}
+
+.Inputs Button:focus {
+    outline: none;
+}
+
+.Inputs input {
+    padding: 10px;
+    font-size: 1.2em;
+    width: 100%;
+}
+
+.Inputs input:focus {
+    outline-color: rgb(76, 31, 150);
+}
+
+.Actions {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.Actions button {
+    flex: 1;
+    font-weight: bold;
+    font-size: 1.2em;
+    text-transform: uppercase;
+    margin-top: 15px;
+    border: none;
+}
+
+.Actions button.Add {
+    background-color: white;
+    color: black;
+    transition: box-shadow 0.3s ease-in-out;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.12), 0 1px 1px rgba(0, 0, 0, 0.24);
+}
+
+.Actions button.Add:focus {
+    outline-color: rgb(76, 31, 150);
+}
+
+.Actions button:hover {
+    cursor: pointer;
+}
+
+.Actions .Invite:disabled {
+    opacity: .65;
+}
+
+.field-error {
+    color: red;
+    font-size: 1em;
+}

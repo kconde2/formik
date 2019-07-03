@@ -1,9 +1,10 @@
 import React from 'react';
-import Reservation from './components/Reservation/Reservation';
+// import Reservation from './components/Reservation/Reservation';
+import Invitation from './components/Invitation/Invitation';
 
 const App = () => {
   return <>
-    <Reservation />
+    <Invitation />
   </>;
 }
 
